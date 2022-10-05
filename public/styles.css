@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.player_icon{
+    margin-right: 45px;
+}
+.album_name{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    margin-bottom: 10%;
+    word-break: break-all;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    color:white;
+    font-weight:900;
+    text-decoration: none;
+}
+.tracks_search{
+margin-top: 45%;
+display: flex;
+flex-direction: column;
+margin-left: -36%;
+margin-bottom: 0%;
+}
+.track_search{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 20px;
+}
+.track_search_author{
+    margin-left: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.track_search_name{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:900;
+}
+.track_search_time{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    font-size: 18px;
+    color:gray;
+}
+.app {
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    height: 100vh;
+}
+.music_header{
+    margin: 2% 0% auto 41%;
+    font-size: 40px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+.hot_header{
+    margin: 7% 4% auto -3.8%;
+    font-size: 15px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer {
+    background-color: #141414;
+    font-size: 18px;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.line{
+    margin: 8% 4% auto -6.7%;
+    font-size: 18px;
+    color:white;
+    border-bottom: 2px solid crimson
+}
+.hot_authors{
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 11% 4% auto -30%;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
+    row-gap: 80px;
+    column-gap: 40px;
+   
+}
+.author{
+    text-align:end;
+    margin: 8% 4% auto 0%;
+    display: flex;
+    flex-direction: column;
+}
+.line_sound{
+    margin: 40.5% 4% auto -7%;
+    font-size: 18px;
+    color:white;
+    border-bottom: 2px solid crimson
+}
+.tracks{
+    
+    margin: 44% auto auto -30%;
+    font-family:  Verdana;
+    font-size: 15px;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    row-gap: 40px;
+    column-gap: 300px;
+}
+.track{
+    text-align:left;
+    float:left;
+    margin: 0% 0% 0% 0%;
+    display: block;
+    font-weight: bold;
+}
+.track_header{
+    margin: 40% 4% auto -23%;
+    font-size: 15px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo_author{
+    border-radius: 50%;
+    margin: auto 0% auto 33%;
+    display: block;
+
+}
+.author_sign{
+    font-weight: lighter;
+    font-size: 13px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+.track_genre{
+    
+    font-size: 15px;
+    color:#ccc;
+    margin: 15px 80px auto auto;
+}
+.track_author{
+    
+    margin: 20px auto auto auto;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+.author_genre{
+    
+    font-size: 15px;
+    color:#ccc;
+    font-weight: normal;
+    
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #141414;
+    font-size: 18px;
+    color: #ccc;
+}
+.logo{
+    margin: auto 0% auto 33%;
+    display: block;
+}
+
+
+
+.header_last_fm_link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+}
+.header__input {
+    margin: 0 0 0 auto;
+    background-color: #141414;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+
+.footer_links{
+    margin: -1.5% auto 3% 18%;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 10px;
+    column-gap: 320px;
+}
+.header_links{
+    font-size:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: gray;
+    font-weight: bold;
+
+}
+.footer_info{
+    font-size:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: gray;
+    font-weight: bold;
+
+}
+.footer_other_info{
+    margin: 10px auto auto 18%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer_others_info{
+    margin: 10px auto auto 18%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.full_audiologo{
+    margin: -2.5% auto auto 80%;
+    display: flex;
+    flex-direction: column;
+}
+.audiologo{
+    float:right;
+    
+    display: block;
+}
+.audiologodesc{
+    margin: auto auto auto -59%;
+    font-size: 20px;
+}
+.footer_others_info_last{
+    margin: 2px auto auto 18%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer_not_links{
+    color: gray;
+}
+.footer_not_links_last{
+    font-size: 12px;
+    color: gray;
+}
+.content {
+    height: 2500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.chosen_nav_link{
+    font-size: 25px;
+    font-weight: bold;
+    color: #141414;
+    text-decoration: none;
+}
+.nav_link{
+    font-size: 25px;
+    color: gray;
+    text-decoration: none;
+}
+.footer_last_fm_link{
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+.content_nav{
+    margin: 2% auto auto 16.8%;
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.artists{
+    
+    margin-bottom: -3%;
+    margin-top: -60%;
+    margin-left: -50%;
+    display: flex;
+    flex-direction: column;    
+}
+.albums{
+    margin-bottom: auto;
+    margin-top: 26%;
+    margin-left: -36.5%;
+    display: flex;
+    flex-direction: column;    
+}
+.artist{
+    position: relative;
+    text-align: center;
+    display: flexbox;
+    flex-direction: column;
+    width: 260px;
+    height: 220px;
+
+}
+.artist_name{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    margin-bottom: 10%;
+    word-break: break-all;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    color:gray;
+    font-weight:900;
+    text-decoration: none;
+    
+
+}
+.more_link{
+    font-size: 20px;
+    font-weight: bold;
+    color:royalblue;
+    margin-top: 5%;
+    margin-right: -645%;
+    text-decoration: none;
+    
+}
+.artist_icons{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    grid-template-rows:auto auto;
+}
+.listeners{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    margin-bottom: 3%;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 13px;
+}
+.artists_header{
+    margin-left: -89%; 
+    margin-bottom: 2%; 
+    margin-top: 2%; 
+    font-size:40px;
+}
+.line_search{
+    margin: 1.1% auto auto -17.1%;
+    font-size: 18px;
+    color:white;
+    border-bottom: 2px solid crimson
+}
+.line_search_track{
+    font-size: 18px;
+    color:white;
+    border-bottom: 2px solid gray
+}
+.header_search{
+    margin: 2% auto auto -40%;
+    font-size: 30px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer_last_fm_link_last{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+.footer_last_fm_link_white:hover{
+    text-decoration: underline;
+   
+}
+.footer_last_fm_link_last:hover{
+    text-decoration: underline;
+   
+}
+.header_last_fm_link:hover{
+    text-decoration: underline;
+   
+}
+.header_links:hover{
+    text-decoration: underline;
+   
+}
+.header_content{
+    text-align: center;
+    height: 200px;
+}
+.footer_last_fm_link:hover{
+    text-decoration: underline;
+   
+}
+.footer_last_fm_link_white{
+    text-decoration: none;
+    font-size: 20px;
+    color:#ccc;
+    display: flex;
+    align-items: center;
+}
+.more_link_track{
+    margin-top: 20px;
+    margin-left: 85%;
+    font-size: 20px;
+    font-weight: bold;
+    color:royalblue;
+    text-decoration: none;
+}
+.track_search_header{
+    margin-left:-95%;
+    font-size:40px;
+}
+.main_input {
+    width: 1145px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 30px;
+    border: 0;
+    font-size: 20px;
+}
+.accordion {
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    margin: 0% 0% auto auto;
+    background-color: #e4e4e4;
+    padding: 10px;
+    width: 33%;
+    height: 2500px;
+}
+.search{
+    margin-top: 2%;
+ margin-bottom: 85%;
+margin-left: 17%;
+margin-right: 6.3%;
+width: 43.5%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+.main_input:focus {
+    outline: none;
+  }
+.input_icon{
+    margin-right: -1100px;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    order: 3;
+}
+.input_clear{
+    margin-top: 5px;
+    margin-right: -20px;
+    width: 25px;
+    height: 25px;
+    order: 2;
+}
+.accordion_content{
+margin: 7% 0% auto auto; 
+color: gray;
+}
+.accordion_link{
+    margin: 7% auto auto 0%;
+    color: gray;
+}
+
+
+
+
