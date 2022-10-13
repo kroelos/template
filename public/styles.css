@@ -14,6 +14,7 @@
     text-decoration: none;
 }
 .tracks_search{
+list-style-type: none;
 display: flex;
 flex-direction: column;
 gap:5px;
@@ -23,7 +24,7 @@ gap:5px;
     display: flex;
     flex-direction: row;
     align-items: center;
- 
+
 }
 .track_search_author{
     font-family:Arial, Helvetica, sans-serif;
@@ -59,7 +60,7 @@ gap:5px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding: 20px 0px;
+    padding-top: 3%;
     gap: 10px;
 }
 .line{
@@ -68,17 +69,19 @@ gap:5px;
     border-bottom: 2px solid crimson
 }
 .hot_authors{
+    padding-left: 10%;
+    padding-right: 10%;
     font-family:  Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 80px;
     column-gap: 40px;
-   
+
 }
 .author{
-    text-align:end;
+    text-align:center;
     display: flex;
     flex-direction: column;
 }
@@ -93,11 +96,11 @@ gap:5px;
     font-size: 15px;
     display: grid;
     grid-template-rows: auto auto auto auto auto auto auto;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 40px;
 }
 .track{
-   
+
     float:left;
     display: block;
     font-weight: bold;
@@ -108,12 +111,12 @@ gap:5px;
     font-family:  Verdana, Geneva, Tahoma, sans-serif;
 }
 .logo_author{
-    border-radius: 50%;
+    border-radius: 100%;
     display: block;
 
 }
 .track_genre{
-    
+
     font-size: 10px;
     color:#ccc;
 
@@ -124,11 +127,11 @@ gap:5px;
 
 }
 .author_genre{
-    
+
     font-size: 15px;
     color:#ccc;
     font-weight: normal;
-    
+
 }
 
 .header {
@@ -171,11 +174,12 @@ gap:5px;
 
 
 .footer_links{
-
+    list-style-type: none;
     display: grid;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     row-gap: 10px;
+    padding-left: 8%;
 }
 .header_right{
     display: flex;
@@ -198,18 +202,22 @@ gap:5px;
 
 }
 .footer_other_info{
+    
+    padding-left: 8%;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
 }
 .full_audiologo{
+    padding-left: 80%;
     display: flex;
     flex-direction: column;
 }
 .audiologo{
     float:right;
-    
+
     display: block;
 }
 .audiologodesc{
@@ -263,6 +271,7 @@ gap:5px;
     align-items: center;
 }
 .content_nav{
+    list-style-type: none;
     display:flex;
     flex-direction: row;
     gap: 20px;
@@ -301,7 +310,7 @@ gap:5px;
     color:gray;
     font-weight:900;
     text-decoration: none;
-    
+
 
 }
 .more_link{
@@ -309,11 +318,12 @@ gap:5px;
     font-weight: bold;
     color:royalblue;
     text-decoration: none;
-    
+
 }
 .artist_icons{
+    list-style-type: none;
     display: grid;
-    grid-template-columns:auto auto auto auto;
+    grid-template-columns:1fr 1fr 1fr 1fr;
     grid-template-rows:auto auto;
 }
 .listeners{
@@ -356,22 +366,22 @@ gap:5px;
 }
 .footer_last_fm_link_white:hover{
     text-decoration: underline;
-   
+
 }
 .footer_last_fm_link_last:hover{
     text-decoration: underline;
-   
+
 }
 .header_last_fm_link:hover{
     text-decoration: underline;
-   
+
 }
 .header_content{
     text-align: center;
 }
 .footer_last_fm_link:hover{
     text-decoration: underline;
-   
+
 }
 .footer_last_fm_link_white{
     text-decoration: none;
