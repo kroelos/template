@@ -1,23 +1,20 @@
 import React from 'react';
+import './styles.css'
+import { BrowserRouter , Routes, Route}
+    from 'react-router-dom';
+import MainIndex from './main_index';
+import SearchResult from './search_result';
+function App() {
+  
+  
+   return (
+    <BrowserRouter>
+    <Routes>
+        <Route path='/' element={<MainIndex />} />
+        <Route path='/search_result' element={<SearchResult/>} />
+    </Routes>
+    </BrowserRouter>
+   );
+ }
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <p>
-//           Edit <code>src/App.tsx</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
+ export default App;
